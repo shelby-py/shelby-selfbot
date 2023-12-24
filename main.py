@@ -394,16 +394,6 @@ async def help(ctx):
     print(f"{Fore.GREEN}[+] HELP SENT SUCCESFULLY✅ ")
      
 
-# FUN
-@shelby.command()
-async def fun_help(ctx):
-    message = (
-        f"**⌬・SHELBY S3LFB0T**\n\n__**[ H 3 L P  COMMAND... = FUN  ]**__\n\n**[+]・ `PAT` **\n**[+]・ `CUDDLE` **\n**[+]・ `KISS` **\n**[+]・ `SLAP` **\n**[+]・ `FEED` **\n**[+]・ `SMUG`**\n**[+]・ `HUG`**\n\n**[+]・Request creator : `SHELBY`**\n__**[+]・Created by - SHELBY __**"
-    )
-    await ctx.send(message)
-    print(f"{Fore.GREEN}[+] FUN-HELP SENT SUCCESFULLY✅ ")
-     
-
 
 # GAYRATE
 @shelby.command()
