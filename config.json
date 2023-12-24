@@ -1,0 +1,14 @@
+{
+    "token": "paste token here",
+    "UPI": "ENTER",
+    "UPI_QR": "ENTER",
+    "BTC_QR": "ENTER",
+    "LTC_QR": "ENTER",
+    "ETH_QR": "ENTER",
+    "PayPal": "ENTER",
+    "Twitch_URL": "https://twitch.tv",
+    "SERVER_LINK": "https://discord.gg/hackersop",
+    "category_ids": [],
+    "server_ids": []
+}
+
