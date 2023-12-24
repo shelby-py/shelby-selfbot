@@ -7,7 +7,7 @@
 ## discord.gg/hackersop
 
 
-# config settings in config.json
+config settings in config.json
 
 ## Disclaimer
 
