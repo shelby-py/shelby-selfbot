@@ -1,6 +1,6 @@
 # Discord - SelfBot is a Script for discord account bot written in Python.
 
-### This SelfBot has a total of about 60 commands to make your life on discord easier. It has a nice and intuitive interface to make it easy to use for everyone, help and explanations for each command, a very complete help command.
+### This SelfBot contain many commands to make your life on discord easier. It has a nice and intuitive interface to make it easy to use for everyone, help and explanations for each command, a very complete help command.
 
 ## MADE BY SHELBY
 
